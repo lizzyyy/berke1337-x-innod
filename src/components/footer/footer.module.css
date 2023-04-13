@@ -1,0 +1,25 @@
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10px;
+    gap: 1rem;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.logo {
+    background: linear-gradient(85.61deg, #FFB703 1.37%, #219EBC 40.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.ocfWrapper {
+    display: flex;
+    flex-direction: row;
+}
