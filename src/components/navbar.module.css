@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .navbar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo {
+    margin: 20px 40px;
 }
 
 .link-container {
@@ -10,12 +18,45 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .regular-link {
-    color: black;
+    color: white;
+    margin: 0px 40px;
+
+    text-decoration: none;
 }
 
 .special-link {
+    margin: 0px 40px;
+    padding: 4px;
 
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: white;
+
+    background: rgb(255,183,3);
+    background: linear-gradient(45deg, rgba(255,183,3,1) 0%, rgba(33,158,188,1) 100%);
+}
+
+.special-link:visited {
+    color: white;
+}
+
+.special-link-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+}
+
+.discord-logo {
+    margin: 0px 10px 0px 0px;
+    height: 20px;
+    width: auto;
 }

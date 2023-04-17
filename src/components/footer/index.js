@@ -10,7 +10,7 @@ const Footer = () => (
     <div className={footerStyles.footerLeft}>
       <Logo />
       <OCF />
-      <Copyright></Copyright>
+      <Copyright />
     </div>
 
     <div></div>

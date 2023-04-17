@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.textContainer {
+    /* position: absolute; */
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgContainer {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-art{
+    width: 900px;
+}
+
+.logo {
+    background: linear-gradient(85.61deg, #FFB703 1.37%, #219EBC 60.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.text  {
+    font-size: 1.25rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-top: 0rem;
+    margin-bottom: 0rem; */
+    /* color: white; REMOVE THIS LATER when the background is changed to black */
+}
+
+p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
