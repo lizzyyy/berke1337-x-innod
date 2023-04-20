@@ -3,7 +3,7 @@ import * as footerStyles from "./footer.module.css"
 
 const OCF = () => (
   <div className={footerStyles.ocfWrapper}>
-    <div>
+    <div className={footerStyles.ocfImage}>
       <a href="https://www.ocf.berkeley.edu">
         <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
         alt="Hosted by the OCF" style={{height: "2.5rem"}}/>

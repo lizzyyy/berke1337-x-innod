@@ -8,8 +8,8 @@ const NavBar = () => (
     <div className= { navbarStyles.navbarContainer }>
         <img className= { navbarStyles.logo } src={ logo } alt="logo"></img>
         <nav className={ navbarStyles.linkContainer }>
-            <Link className={ navbarStyles.regularLink } to="">HOME</Link>
-            <Link className={ navbarStyles.regularLink } to="">ABOUT US</Link>
+            <Link className={ navbarStyles.regularLink } to="/">HOME</Link>
+            <Link className={ navbarStyles.regularLink } to="/about/">ABOUT US</Link>
             <Link className={ navbarStyles.regularLink } to="">RESOURCES</Link>
             <Link className={ navbarStyles.regularLink } to="">EVENTS</Link>
             <a className={ navbarStyles.specialLink } href="https://www.google.com/" target="_blank" rel="noreferrer">

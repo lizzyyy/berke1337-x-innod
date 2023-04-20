@@ -1,0 +1,36 @@
+.textContainer {
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textCondensed  {
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.text  {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+    margin: 40px;
+}
+
+.image {
+    width: 200px;
+    max-width: 100%;
+    height: auto;   
+}

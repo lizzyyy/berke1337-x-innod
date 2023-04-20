@@ -6,16 +6,17 @@ import Sitemap from './sitemap';
 import * as footerStyles from "./footer.module.css"
 
 const Footer = () => (
-  <footer className={footerStyles.footerWrapper}>
-    <div className={footerStyles.footerLeft}>
-      <Logo />
-      <OCF />
-      <Copyright />
-    </div>
+  <footer className={footerStyles.footer}>
+    <div className={footerStyles.footerBar}></div>
+    <div className={footerStyles.footerWrapper}>
+      <div className={footerStyles.footerLeft}>
+        <Logo />
+        <OCF />
+        <Copyright />
+      </div>
 
-    <div></div>
-
-    <div>
+      <div className={footerStyles.divider}></div>
+      
       <Sitemap></Sitemap>
     </div>
   </footer>

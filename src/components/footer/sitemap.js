@@ -25,15 +25,12 @@ const Sitemap = () => {
 
   
   return (
-    <div>
+    <div className={style.sitemap}>
       {
         sitemap.map(column => (
           <div className={style.column}>
             { 
-              column.map((entry, i) => {
-                if (i === 0) return <Link to={links[entry]}>{entry}</Link>
-                return <Link to={links[entry]}>{entry}</Link>
-              })
+              column.map(entry => <Link to={links[entry]}>{entry}</Link>)
             }
           </div>
         ))
