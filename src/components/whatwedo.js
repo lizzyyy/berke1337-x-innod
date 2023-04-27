@@ -12,10 +12,37 @@ const Whatwedo = () => (
             <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
         <div className={whatwedoStyles.imgContainer}>
-            <img className={whatwedoStyles.image} src={ Learn }></img>
-            <img className={whatwedoStyles.image} src={ Hack }></img>
-            <img className={whatwedoStyles.image} src={ Compete }></img>
+            <div className={ whatwedoStyles.hoverContainer }>
+                <img className={whatwedoStyles.image} src={ Learn }></img>
+                <div className={ whatwedoStyles.overlay }></div>
+                <div>
+                    <p className={ whatwedoStyles.text }>PLACE TEXT</p>
+                </div> 
+            </div>
+            <div className={ whatwedoStyles.hoverContainer }>
+                <img className={whatwedoStyles.image} src={ Hack }></img>
+                <div className={ whatwedoStyles.overlay }></div>
+                <div>
+                    <p className={ whatwedoStyles.text }>PLACE TEXT</p>
+                </div> 
+            </div>
+            <div className={ whatwedoStyles.hoverContainer }>
+                <img className={whatwedoStyles.image} src={ Compete }></img>
+                <div className={ whatwedoStyles.overlay }></div>
+                <div>
+                    <p className={ whatwedoStyles.text }>PLACE TEXT</p>
+                </div> 
+            </div>
         </div>
+        <a className={ whatwedoStyles.noUnderline } href="https://www.google.com/">
+            <div className={ whatwedoStyles.link }>
+                <div className={whatwedoStyles.outline} >
+                    <div className={whatwedoStyles.inside} >
+                        LEARN MORE
+                    </div>
+                </div>
+            </div>
+        </a>
     </section>
 )
 

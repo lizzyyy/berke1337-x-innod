@@ -4,6 +4,7 @@ import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import Hero from "../components/hero"
 import Whatwedo from "../components/whatwedo"
+import Faq from "../components/faq"
 
 
 const IndexPage = () => {
@@ -16,8 +17,7 @@ const IndexPage = () => {
         <content>
           <Hero />
           <Whatwedo />
-          <section></section>
-          <section></section>
+          <Faq />
         </content>
         
         <Footer />

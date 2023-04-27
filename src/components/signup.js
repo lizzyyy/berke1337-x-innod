@@ -7,7 +7,7 @@ const CTF = () => {
         <div className={ CTFStyles.container }>
             <div className={ CTFStyles.left }>
                 <div className={CTFStyles.title}>
-                    CAPTURE THE FLAG
+                    SIGN UP TO TALK
                 </div>
                 <div className={CTFStyles.text}>
                     <p>
@@ -16,7 +16,7 @@ const CTF = () => {
                 </div>
             </div>
             <div className={ CTFStyles.right }>
-                <FancyButton link="https://ctftime.org/team/182411" text="LEARN MORE" />
+                <FancyButton link="https://google.com" text="SIGN UP" />
             </div>
         </div>
     )

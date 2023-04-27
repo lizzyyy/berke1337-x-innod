@@ -5,15 +5,15 @@ import { Link } from "gatsby";
 const Sitemap = () => {
   const links = {
     'Home': '/',
-    'About Us': '/',
-    'CTF Team': '/',
-    'Resources': '/',
-    'Research': '/',
-    'News': '/',
-    'Slides': '/',
-    'Events': '/',
-    'Calendar': '/',
-    'Sign Up To Speak': '/'
+    'About Us': '/about',
+    'CTF Team': '/about#ctf',
+    'Resources': '/resources',
+    'Research': '/resources#research',
+    'News': '/resources#news',
+    'Slides': '/resources#slides',
+    'Events': '/events',
+    'Calendar': '/events#calendar',
+    'Sign Up To Speak': '/events#signup'
   };
 
   const sitemap = [

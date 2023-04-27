@@ -26,7 +26,7 @@ const MemberCard = ({ member }) => {
   
 const MeetTheTeam = () => {
     return (
-        <div>
+        <div className={meetTheTeamStyle.meetTheTeamContainer}>
             <h1 className={meetTheTeamStyle.header}>MEET THE TEAM</h1>
             <div className={meetTheTeamStyle.team}>
                 {teamMembers.map((member, index) => (

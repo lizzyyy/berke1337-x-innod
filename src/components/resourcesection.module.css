@@ -1,0 +1,44 @@
+.customizableComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    gap: 5rem;
+}   
+  
+.contentLeft {
+    text-align: left;
+    max-width: 50%;
+}
+
+.contentRight img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-family: 'IBM Plex Sans Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.text {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    width: fit-content;
+    margin-left: -40px;
+    margin-top: 2rem;
+}
+
+.image {
+    box-sizing: border-box;
+    border-radius: 10px;
+}

@@ -1,3 +1,8 @@
+.background {
+    background-image: url("../images/DotsBackground.png");
+    background-repeat: no-repeat;
+}
+
 .title {
     background: linear-gradient(85.61deg, #FFB703 1.37%, #219EBC 60.8%);
     -webkit-background-clip: text;
@@ -23,7 +28,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding-top: 12rem;
     padding-bottom: 12rem;
     gap: 10rem;
@@ -35,19 +39,26 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    max-width: 70%;
+    margin-left: 7rem;
 }
 
-.background {
-    background-image: url("../images/DotsBackground.png");
-    background-repeat: no-repeat;
+.fullcalendar {
+    width: 80%;
+    margin: auto;
+    font-family: 'IBM Plex Sans Condensed';
+    --fc-button-border-color: #75D0EA;
+    --fc-button-bg-color: #75D0EA;
+    --fc-button-hover-bg-color: #219EBC;
+    --fc-button-hover-border-color: #219EBC;
+    --fc-button-active-bg-color: #219EBC;
+    --fc-button-active-border-color: #219EBC;
+    --fc-event-border-color: #FFB703;
 }
 
-.imgContainer {
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    overflow: hidden;
+.fullcalendar .fc-daygrid-event {
+    color: white;
+}
+
+.signup {
+    margin-top: 12rem;
 }

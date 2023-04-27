@@ -1,3 +1,8 @@
+.background {
+    background-image: url("../images/DotsBackground.png");
+    background-repeat: no-repeat;
+}
+
 .title {
     background: linear-gradient(85.61deg, #FFB703 1.37%, #219EBC 60.8%);
     -webkit-background-clip: text;
@@ -23,7 +28,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding-top: 12rem;
     padding-bottom: 12rem;
     gap: 10rem;
@@ -35,19 +39,12 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    max-width: 70%;
+    margin-left: 7rem;
 }
 
-.background {
-    background-image: url("../images/DotsBackground.png");
-    background-repeat: no-repeat;
-}
-
-.imgContainer {
-    /* position: absolute; */
+.sections {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    overflow: hidden;
+    margin-bottom: 12rem;
+    gap: 10rem;
 }

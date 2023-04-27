@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+.container {
+  margin-bottom: 12rem;
+}
+
+.header {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.q_and_a {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.wrapper {
+  padding: 42px 74px;
+  background: #131313;
+  border: 1px solid #313131;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  transition: height 2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper[data-expand=false] {
+  background: linear-gradient(90deg, #0F2C39 0%, #131313 100%);
+}
+
+.question_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: #219EBC;
+}
+
+.btn {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.answer {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 0.5em;
+  transition: height 5s;
+}
+
+.left_bar {
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #219EBC;
+}

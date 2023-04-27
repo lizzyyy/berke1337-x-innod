@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Navbar from "../components/navbar"
 import MeetTheTeam from "../components/meettheteam"
-// import CTF from "../components/ctf"
+import CTF from "../components/ctf"
 import Footer from "../components/footer/index"
 
 import * as aboutStyles from "./about.module.css"
@@ -19,7 +19,7 @@ const AboutUs = () => {
                 </header>
                 <main>
                     <section className={ aboutStyles.container }>
-                        <div className={ heroStyles.textContainer}>
+                        <div className={ aboutStyles.textContainer}>
                             <h1 className={ aboutStyles.title }>
                                 We are UC Berkeley's
                                 <br></br>
@@ -38,8 +38,8 @@ const AboutUs = () => {
                     <section>
                         <MeetTheTeam />
                     </section>
-                    <section>
-                        {/* <CTF /> */}
+                    <section id="CTF">
+                        <CTF />
                     </section>
                 </main>
                 <Footer />
